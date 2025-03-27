@@ -1,9 +1,17 @@
 import './App.css';
+import Tree from './components/Tree';
 
 function App() {
   return (
     <>
-    <h1>Hi There</h1>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Routes>
+    <section className='columns'>
+      <Tree />
+      <Tree />
+    </section>
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
