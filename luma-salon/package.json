@@ -2,6 +2,7 @@
   "name": "luma_salon_react",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://DrewEvans0428.github.io/luma_salon_react",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
