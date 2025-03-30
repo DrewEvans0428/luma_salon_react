@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/footer";
 
 function Stylist(){
+    return(
     <>
     <Header />
     <section id="stylists-content">
@@ -60,6 +61,7 @@ function Stylist(){
         </section>
     <Footer />
     </>
+    )
 }
 
 export default Stylist;

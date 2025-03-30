@@ -9,12 +9,12 @@ function Consultation() {
         <h1>Consultations</h1>
         <h2>How to Get Scheduled</h2>
         <section id="Consultation-content">
-        <section class="page-title">
+        <section className="page-title">
             <hr />
         </section>
         <div id="consultation-container">
             <form id="consultation-form">
-                <div class="form-group">
+                <div className="form-group">
                     <label for="stylist">Stylist:</label>
                     <select id="selct-stylist">
                         {/*--Found how to get dropdown from w3schools using select */}
@@ -23,7 +23,7 @@ function Consultation() {
                     </select>
                 </div>
 
-                <div class="form-group">
+                <div className="form-group">
                     <label for="services">Services Needed: </label>
                     <br />
                     <input type="checkbox" id="haircut" name="haircut" value="Haircut" />
@@ -38,7 +38,7 @@ function Consultation() {
                     <label for="coloring"> Coloring </label>
                     <br />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                     <aside>Potential Date:</aside>
                     <input type="date" id="date" />
                 </div>
@@ -58,7 +58,7 @@ function Consultation() {
     <Footer />
 
         </>
-    );
+    )
 }
 
 export default Consultation;
