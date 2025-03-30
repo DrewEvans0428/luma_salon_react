@@ -1,6 +1,10 @@
 import "./css/Services.css";
 import Header from "../components/Header";
 import Footer from "../components/footer";
+import haircut from "../images/haircut.jpg";
+import waxing from "../images/waxing.jpg";
+import coloring from "../images/coloring.jpg";
+import mermaid_spa from "../images/mermaid_spa.jpg"
 
 function Services() {
     return (
@@ -15,7 +19,7 @@ function Services() {
             <div className="service">
                 <h3>Hair Cuts</h3>
                 <div id="haircut-image">
-                    <img src="images/haircut.jpg" alt="placeholder" />
+                    <img src={haircut} alt="placeholder" />
                 </div>
                 <p>
                     All pricing is dependent on the stylist, and how long the haircut might take. Here at Luma Salon we know how to do all types of haircuts no matter the length.
@@ -26,7 +30,7 @@ function Services() {
             <div className="service">
                 <h3>Facial Waxings</h3>
                 <div id="waxing-image">
-                    <img src="images/waxing.jpg" alt="placeholder" />
+                    <img src={waxing} alt="placeholder" />
                 </div>
                 <p>
                     Facial Waxings are also dependent on the stylist. They are normally a cheaper option as theyre normally pretty quick.
@@ -36,7 +40,7 @@ function Services() {
             <div className="service">
                 <h3>Color Treatments</h3>
                 <div id="color-image">
-                    <img src="images/coloring.jpg" alt="placeholder" />
+                    <img src={coloring} alt="placeholder" />
                 </div>
                 <p>
                     Our coloring treatments normally take a little longer than other services. some of our coloring services
@@ -48,7 +52,7 @@ function Services() {
             <div className="service">
                 <h3>Head Spa Treatments</h3>
                 <div id="headspa-image">
-                    <img src="images/mermaid_spa.jpg" alt="placeholder" />
+                    <img src={mermaid_spa} alt="placeholder" />
                 </div>
                 <p>
                     Our headspa treatments are new to Luma Salon! It is led by Jenny and she also bases price based on time and what is needed/wanted. Come enjoy these soothing head spas at Luma Salon!

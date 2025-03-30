@@ -1,6 +1,8 @@
 import "./css/Stylist.css";
 import Header from "../components/Header";
 import Footer from "../components/footer";
+import jen_evans from "../images/jennifer_evans.jpg";
+import ronda_reeves from "../images/ronda_reeves.jpg";
 
 function Stylist(){
     return(
@@ -17,7 +19,7 @@ function Stylist(){
                     <h3>Jennifer Evans</h3>
                     <h4>Owner/Stylist</h4>
                     <div class="image">
-                        <img src="images/jennifer_evans.jpg" alt="placeholder" />
+                        <img src={jen_evans} alt="placeholder" />
                     </div>
                     <section id="jen-evans-text">
                     <p>
@@ -40,7 +42,7 @@ function Stylist(){
                     <h3>Rhonda Reeves</h3>
                     <h4>Owner/Stylist</h4>
                     <div class="image">
-                        <img src="images/thumbnail_IMG_6222.jpg" alt="placeholder" />
+                        <img src={ronda_reeves} alt="placeholder" />
                     </div>
                     
                     <p>

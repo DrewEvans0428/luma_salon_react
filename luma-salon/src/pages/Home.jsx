@@ -1,6 +1,7 @@
 import "./css/Home.css";
 import Header from "../components/Header";
 import Footer from "../components/footer";
+import home_image from "../images/slideshow/home-image.jpg";
 
 function Home() {
     return(
@@ -13,11 +14,7 @@ function Home() {
         <h3>746 Saint Andrews Blvd, Charleston, SC</h3>
         </section>
         <section id="slideshow">
-            <img src="/images/slideshow/home-image.jpg" alt="home-image" />
-            <img src="images/slideshow/slideshow2.jpg" alt="placeholder" className="hidden" />
-            <img src="images/slideshow/slideshow1.jpg" alt="color-mix" className="hidden" />
-            <img src="images/slideshow/slideshow3.jpg" alt="room" className="hidden" />
-            <img src="images/slideshow/slideshow4.jpg" alt="room" className="hidden" />
+            <img src={home_image} alt="home-image" />
         </section>
         <p id="home-text">
             Luma Salon is a premier beauty destination located in West Ashley, just minutes from downtown Charleston and James Island. 
