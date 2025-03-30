@@ -1,0 +1,49 @@
+#home-content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.image-container{
+   display: grid;
+   grid-template-columns: repeat 1fr;
+   gap: 40px;
+   justify-content: center;
+}
+
+#slideshow img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+#home-text{
+    font-size: 25px;
+    color: teal;
+}
+
+.page-title{
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 850px){
+    .image-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #slideshow img{
+        width: 700px;
+        height: 500px;
+    }
+
+    .home-image img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+}

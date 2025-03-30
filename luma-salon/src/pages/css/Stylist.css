@@ -1,0 +1,57 @@
+.stylist{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-spacing: 5px;
+    color: teal;
+}
+
+.stylist:last-child{
+    border-right: none;
+}
+
+.stylist-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#jen-evans{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+}
+
+#reeves{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.stylist-container img{
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 850px){
+    .stylist-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;   
+        font-size: 20px;
+    }
+
+    #jen-evans{
+        border-bottom: none;
+    }
+
+    .stylist-container img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
