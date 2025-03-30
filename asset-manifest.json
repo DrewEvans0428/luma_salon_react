@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/luma_salon_react/static/css/main.cdc7c9ca.css",
-    "main.js": "/luma_salon_react/static/js/main.a4001144.js",
+    "main.js": "/luma_salon_react/static/js/main.d20e251d.js",
     "index.html": "/luma_salon_react/index.html",
     "main.cdc7c9ca.css.map": "/luma_salon_react/static/css/main.cdc7c9ca.css.map",
-    "main.a4001144.js.map": "/luma_salon_react/static/js/main.a4001144.js.map"
+    "main.d20e251d.js.map": "/luma_salon_react/static/js/main.d20e251d.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc7c9ca.css",
-    "static/js/main.a4001144.js"
+    "static/js/main.d20e251d.js"
   ]
 }
