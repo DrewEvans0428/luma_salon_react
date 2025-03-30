@@ -6,8 +6,6 @@ function Contact () {
     return (
         <>
         <Header />
-        <h1>Contact/About Us</h1>
-        <h2>Leave Reviews and Learn About Us</h2>
     <hr />
         <div id="contact-content">
         <section class="page-title">

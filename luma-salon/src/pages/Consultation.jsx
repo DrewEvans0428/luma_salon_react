@@ -6,8 +6,6 @@ function Consultation() {
     return (
         <>
        <Header />
-        <h1>Consultations</h1>
-        <h2>How to Get Scheduled</h2>
         <section id="Consultation-content">
         <section className="page-title">
             <hr />

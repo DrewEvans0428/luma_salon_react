@@ -13,7 +13,7 @@ function Home() {
         <h3>746 Saint Andrews Blvd, Charleston, SC</h3>
         </section>
         <section id="slideshow">
-            <img src="images/slideshow/home-image.jpg" alt="home-image" />
+            <img src="/images/slideshow/home-image.jpg" alt="home-image" />
             <img src="images/slideshow/slideshow2.jpg" alt="placeholder" className="hidden" />
             <img src="images/slideshow/slideshow1.jpg" alt="color-mix" className="hidden" />
             <img src="images/slideshow/slideshow3.jpg" alt="room" className="hidden" />

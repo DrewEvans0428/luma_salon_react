@@ -16,8 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="Consultation" element={<Consultation />} />
         <Route path="Contact" element={<Contact />} />
+        <Route path="Consultation" element={<Consultation />} />
         <Route path="Services" element={<Services />} />
         <Route path="Stylist" element={<Stylist />} />
         <Route path="*" element={<Nopage/>} />
