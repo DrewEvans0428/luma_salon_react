@@ -1,8 +1,34 @@
 import './css/Consultation.css';
+import React from 'react';
+import { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/footer';
 
 function Consultation() {
+    const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "0506e354-7e3a-4b83-8ba7-a1c32879aad6");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+}
     return (
         <>
        <Header />
@@ -11,10 +37,10 @@ function Consultation() {
             <hr />
         </section>
         <div id="consultation-container">
-            <form id="consultation-form">
+            <form id="consultation-form" onSubmit={onSubmit}>
                 <div className="form-group">
                     <label for="stylist">Stylist:</label>
-                    <select id="selct-stylist">
+                    <select id="selct-stylist" name="stylist" required>
                         {/*--Found how to get dropdown from w3schools using select */}
                         <option>Jennifer Evans</option>
                         <option>Rhonda Reeves</option>
@@ -38,9 +64,13 @@ function Consultation() {
                 </div>
                 <div className="form-group">
                     <aside>Potential Date:</aside>
-                    <input type="date" id="date" />
+                    <input type="date" id="date" name="Date" required/>
                 </div>
                 <button id="consultation-button" type="submit">Submit Consultation</button>
+
+                <div id='result'>
+                    <p>{result}</p>
+                </div>
             </form>
             {/*Note Section*/}
             <div id="note">

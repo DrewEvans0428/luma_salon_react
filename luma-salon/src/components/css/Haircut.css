@@ -1,0 +1,22 @@
+#services-content{
+    text-align: center;
+}
+
+.service{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+.service img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+#haircut-image{
+    width: 150;
+    height: 150;
+}

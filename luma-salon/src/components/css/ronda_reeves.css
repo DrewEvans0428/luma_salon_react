@@ -1,0 +1,19 @@
+.stylist{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border-spacing: 5px;
+    color: teal;
+}
+
+.stylist:last-child{
+    border-right: none;
+}
+
+#reeves{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+

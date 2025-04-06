@@ -5,11 +5,6 @@ function Header() {
     return(
         <header id="main-header">
             <section class="main-header">
-            <div class="hamburger-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
             <Navigation />
         </section>
         <h1>Luma Salon</h1>
