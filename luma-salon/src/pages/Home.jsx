@@ -7,6 +7,7 @@ import SlideShow from "../components/SlideShow";
 function Home() {
     return(
         <>
+        <Header />
         <section id="home-content">
         <section className="page-title">
             {/*Places horizontal Line*/}

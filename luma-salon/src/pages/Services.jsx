@@ -5,6 +5,7 @@ import Coloring from "../components/Coloring";
 import Haircut from "../components/haircut";
 import Spa from "../components/Spa";
 import Waxing from "../components/Waxing";
+//import ServicesPlan from "../components/ServicesPlan";
 function Services() {
     return (
         <>

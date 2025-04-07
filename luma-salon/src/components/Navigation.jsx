@@ -18,7 +18,7 @@ function Navigation() {
                 <span className="bar"></span>
             </div>
         <nav id="main-nav">
-                <ul id="nav-items" className={menuOpen?"": "hide-small"}>
+                <ul id="nav-items" className = {menuOpen?"": "hide-small"}>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Stylist">Stylists</Link></li>
                     <li><Link to="/Services">Services</Link></li>
