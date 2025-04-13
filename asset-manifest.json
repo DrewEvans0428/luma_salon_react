@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luma_salon_react/static/css/main.0393b65e.css",
-    "main.js": "/luma_salon_react/static/js/main.cec8402a.js",
+    "main.css": "/luma_salon_react/static/css/main.6abb0401.css",
+    "main.js": "/luma_salon_react/static/js/main.3738b189.js",
     "static/media/jennifer_evans.jpg": "/luma_salon_react/static/media/jennifer_evans.d9e08260590bd42c7b50.jpg",
     "static/media/ronda_reeves.jpg": "/luma_salon_react/static/media/ronda_reeves.c5ad37797e8e0484d917.jpg",
     "static/media/home-image.jpg": "/luma_salon_react/static/media/home-image.96ce672d40f510a37b75.jpg",
@@ -14,11 +14,11 @@
     "static/media/mermaid_spa.jpg": "/luma_salon_react/static/media/mermaid_spa.04a9c049a9f30983f181.jpg",
     "static/media/waxing.jpg": "/luma_salon_react/static/media/waxing.cd89cb5c7aa7403ce916.jpg",
     "index.html": "/luma_salon_react/index.html",
-    "main.0393b65e.css.map": "/luma_salon_react/static/css/main.0393b65e.css.map",
-    "main.cec8402a.js.map": "/luma_salon_react/static/js/main.cec8402a.js.map"
+    "main.6abb0401.css.map": "/luma_salon_react/static/css/main.6abb0401.css.map",
+    "main.3738b189.js.map": "/luma_salon_react/static/js/main.3738b189.js.map"
   },
   "entrypoints": [
-    "static/css/main.0393b65e.css",
-    "static/js/main.cec8402a.js"
+    "static/css/main.6abb0401.css",
+    "static/js/main.3738b189.js"
   ]
 }
