@@ -1,10 +1,11 @@
 
 #main-nav {
-    display: none;
     width: 100%;
     padding: 10px 0;
     text-align: center;
 }
+
+
 .nav-links {
     display: none;
     flex-direction: column;
@@ -15,9 +16,7 @@
 .show{
     display: flex;
 }
-.hide-small{
-    display: none;
-}
+
 #main-nav ul{
     list-style-type: none;
     padding: 0;
@@ -65,8 +64,13 @@
     width: 35px;
     height: 5px;
     background-color: white;
-    margin: 10px 0;
+    margin: 5px 5px;
     transition: 0.3s;
+}
+@media only screen and (max-width: 850px){
+    #main-nav ul.hide-small{
+        display: none;
+    }
 }
 
 

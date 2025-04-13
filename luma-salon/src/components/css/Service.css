@@ -14,3 +14,116 @@
     display: block;
     margin: auto;
 }
+
+#services-content{
+    text-align: center;
+}
+
+.service{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+   
+}
+
+.service ul li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+.service p{
+    color: teal;
+    font-size: 20px;
+}
+
+#services-area{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#services-area p{
+    font-size: 20px;
+    color: teal;
+}
+
+.service img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+#haircut-image{
+    width: 150;
+    height: 150;
+}
+
+#color-image{
+    width: 150;
+    height: 150;
+}
+
+#waxing-image{
+    width: 150;
+    height: 150;
+}
+
+#add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.w3-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.w3-container img{
+    height: 200px;
+    width: 200px;
+}
+
+
+#submit-button{
+    height: 20px;
+    width: 20x;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+#add-service{
+    height: 20px;
+    width: 20x;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+#add-service:hover{
+   cursor: pointer;
+}
+
+@media only screen and (min-width: 850px){
+    .services-area{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #home-content{
+        width: 80%;
+    }
+
+    #services-content{
+        width: 70%;
+    }
+}
+    
