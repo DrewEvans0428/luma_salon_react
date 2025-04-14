@@ -11,7 +11,7 @@ const ServicesPlan = () => {
     useEffect(()=>{
 
         (async () => {
-            const response = await axios.get("https://luma-salon-backend.onrender.com");
+            const response = await axios.get("https://luma-salon-backend.onrender.com/api/services");
             setServices(response.data);
         })();
 
