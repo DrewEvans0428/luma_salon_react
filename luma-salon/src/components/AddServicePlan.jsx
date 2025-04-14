@@ -15,7 +15,7 @@ const AddServicePlan = (props) => {
         const formData = new FormData(event.target);
         console.log(...formData);
 
-        const response = await fetch("https://luma-salon-backend.onrender.com", {
+        const response = await fetch("http://localhost:3001/api/services", {
             "method":"POST",
             "body":formData
         });
