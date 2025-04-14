@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luma_salon_react/static/css/main.6abb0401.css",
-    "main.js": "/luma_salon_react/static/js/main.ab47ac03.js",
+    "main.js": "/luma_salon_react/static/js/main.3d664220.js",
     "static/media/jennifer_evans.jpg": "/luma_salon_react/static/media/jennifer_evans.d9e08260590bd42c7b50.jpg",
     "static/media/ronda_reeves.jpg": "/luma_salon_react/static/media/ronda_reeves.c5ad37797e8e0484d917.jpg",
     "static/media/home-image.jpg": "/luma_salon_react/static/media/home-image.96ce672d40f510a37b75.jpg",
@@ -15,10 +15,10 @@
     "static/media/waxing.jpg": "/luma_salon_react/static/media/waxing.cd89cb5c7aa7403ce916.jpg",
     "index.html": "/luma_salon_react/index.html",
     "main.6abb0401.css.map": "/luma_salon_react/static/css/main.6abb0401.css.map",
-    "main.ab47ac03.js.map": "/luma_salon_react/static/js/main.ab47ac03.js.map"
+    "main.3d664220.js.map": "/luma_salon_react/static/js/main.3d664220.js.map"
   },
   "entrypoints": [
     "static/css/main.6abb0401.css",
-    "static/js/main.ab47ac03.js"
+    "static/js/main.3d664220.js"
   ]
 }
