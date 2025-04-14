@@ -1,24 +1,20 @@
 {
   "files": {
     "main.css": "/luma_salon_react/static/css/main.6abb0401.css",
-    "main.js": "/luma_salon_react/static/js/main.1156d146.js",
+    "main.js": "/luma_salon_react/static/js/main.e38fd908.js",
     "static/media/jennifer_evans.jpg": "/luma_salon_react/static/media/jennifer_evans.d9e08260590bd42c7b50.jpg",
     "static/media/ronda_reeves.jpg": "/luma_salon_react/static/media/ronda_reeves.c5ad37797e8e0484d917.jpg",
     "static/media/home-image.jpg": "/luma_salon_react/static/media/home-image.96ce672d40f510a37b75.jpg",
     "static/media/slideshow4.jpg": "/luma_salon_react/static/media/slideshow4.55d0e10fd80a0ae19e52.jpg",
     "static/media/slideshow1.jpg": "/luma_salon_react/static/media/slideshow1.e7b2168699e37bb7597a.jpg",
-    "static/media/coloring.jpg": "/luma_salon_react/static/media/coloring.ce9dfbbebba622322c58.jpg",
     "static/media/slideshow2.jpg": "/luma_salon_react/static/media/slideshow2.d3ce83ef438c224f2875.jpg",
-    "static/media/haircut.jpg": "/luma_salon_react/static/media/haircut.ef9f09aad1d62bbcf471.jpg",
     "static/media/slideshow3.jpg": "/luma_salon_react/static/media/slideshow3.979127392d615ff11914.jpg",
-    "static/media/mermaid_spa.jpg": "/luma_salon_react/static/media/mermaid_spa.04a9c049a9f30983f181.jpg",
-    "static/media/waxing.jpg": "/luma_salon_react/static/media/waxing.cd89cb5c7aa7403ce916.jpg",
     "index.html": "/luma_salon_react/index.html",
     "main.6abb0401.css.map": "/luma_salon_react/static/css/main.6abb0401.css.map",
-    "main.1156d146.js.map": "/luma_salon_react/static/js/main.1156d146.js.map"
+    "main.e38fd908.js.map": "/luma_salon_react/static/js/main.e38fd908.js.map"
   },
   "entrypoints": [
     "static/css/main.6abb0401.css",
-    "static/js/main.1156d146.js"
+    "static/js/main.e38fd908.js"
   ]
 }
