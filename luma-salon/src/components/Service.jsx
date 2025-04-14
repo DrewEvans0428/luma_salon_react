@@ -5,7 +5,7 @@ const Service = (services)  => {
    <div className="service">
       <h2>{services.Name}</h2>
             <div id="headspa-image">
-                <img src={"http://localhost:3001/" + services.img_name} alt={services.name} />
+                <img src={"https://luma-salon-backend.onrender.com" + services.img_name} alt={services.name} />
             </div>
             <h4>
                 {services.pricing}
