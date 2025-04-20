@@ -37,6 +37,7 @@ const ServicesPlan = () => {
             {services.map((service)=>(
                 <Service
                 key={service._id}
+                _id={service._id}
                 Name={service.Name}
                 Stylists={service.Stylists}
                 pricing={service.pricing}
