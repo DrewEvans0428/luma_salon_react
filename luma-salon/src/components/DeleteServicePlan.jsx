@@ -4,7 +4,7 @@ const DeleteServicePlan = (props) => {
     const [result, setResult] = useState("");
 
     const deleteServicePlan = async() => {
-        const response = await fetch(`http://localhost:3001/api/services/${props._id}`,{
+        const response = await fetch(`https://luma-salon-backend.onrender.com/api/services/${props._id}`,{
             method:"DELETE"
         });
 

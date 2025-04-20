@@ -15,7 +15,7 @@ const EditServicePlan = (props) => {
         const formData = new FormData(event.target);
         console.log(...formData);
 
-        const response = await fetch(`http://localhost:3001/api/services/${props._id}`,{
+        const response = await fetch(`https://luma-salon-backend.onrender.com/api/services/${props._id}`,{
             method:"PUT",
             body:formData
         });
